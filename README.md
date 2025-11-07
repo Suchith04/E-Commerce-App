@@ -38,11 +38,11 @@ cd E-Commerce-App
 
 Frontend and backend are separate folders. Run the following in each:
 
-# For frontend
+### For frontend
 cd frontend
 npm install
 
-# For backend
+### For backend
 cd ../server
 npm install
 
@@ -50,10 +50,10 @@ npm install
 
 Run backend first, then frontend (in separate terminals):
 
-# Backend (runs on port 5000)
+### Backend (runs on port 5000)
 npm start
 
-# Frontend (runs on port 5173)
+### Frontend (runs on port 5173)
 npm start
 
 
@@ -63,7 +63,7 @@ npm start
 
 🔗 Demo Video Link (https://youtu.be/6kcNbNIse-c)
 
-🔌 API Endpoints
+### 🔌 API Endpoints
 
 Method	Endpoint	     Description
 
@@ -77,26 +77,22 @@ DELETE	**/api/cart/:id**	 (Remove product from cart)
 
 POST	  **/api/checkout**	 (Complete mock checkout & get receipt)
 
-🧱 Folder Structure
-frontend/
- ┣ components/
- ┣ context/
- ┣ App.jsx
- ┗ index.js
 
-backend/
- ┣ controllers/
- ┣ models/
- ┣ routes/
- ┗ server.js
+ 
 
-🌱 Future Improvements & Scope
+
+### 🌱 Future Improvements & Scope
 
 ✅ Add User Authentication (Login / Signup)
+
 ✅ Implement JWT-based protected routes
+
 ✅ Add Order History & Persistence
+
 ✅ Integrate a real payment gateway (Stripe / Razorpay)
+
 ✅ Improve UI with animations and toast notifications
+
 ✅ Deploy to cloud (e.g., Render / Vercel / MongoDB Atlas)
 
 
