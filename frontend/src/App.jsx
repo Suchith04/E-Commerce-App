@@ -10,7 +10,7 @@ const App = () => {
     <CartProvider>
       <Router>
         <header className="p-4 bg-gray-800 text-white flex justify-between">
-          <h1 className="text-lg font-bold">Vibe Commerce</h1>
+          <h1 className="text-lg font-bold">E Commerce</h1>
           <nav className="flex gap-4">
             <Link to="/">Products</Link>
             <Link to="/cart">Cart</Link>
